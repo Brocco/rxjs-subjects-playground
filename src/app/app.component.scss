@@ -1,0 +1,14 @@
+.subject-container {
+  display: grid;
+  grid-template:
+    " a   b   c"
+    "1fr 1fr 1fr";
+  gap: 0.5rem;
+
+  > * {
+    // width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5em;
+  }
+}
